@@ -1,7 +1,7 @@
 # Bank app
 
 <h1>Sobre</h1>
-<p>Aplicação que fornece os serviços do Banco Capmegini. Com essa aplicação é possível realizar depósitos, fazer saques e verificar o saldo atual.</p>
+<p>Aplicação que fornece os serviços do Banco Capgemini. Com essa aplicação é possível realizar depósitos, fazer saques e verificar o saldo atual.</p>
 
 <h1>Passos para a execução</h1>
 <h3>Backend</h3>
