@@ -1,0 +1,78 @@
+.blue-gradient {
+    background: -webkit-linear-gradient(50deg, #45cafc, #303f9f);
+    background: linear-gradient(40deg, #45cafc, #4285f4);
+  }
+
+
+td {
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 500px;
+}
+/* MODAL STYLES
+-------------------------------*/
+jw-modal {
+  /* modals are hidden by default */
+  display: none;
+
+  .jw-modal {
+    /* modal container fixed across whole screen */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    /* z-index must be higher than .jw-modal-background */
+    z-index: 1000;
+
+    /* enables scrolling for tall modals */
+    overflow: auto;
+
+    .jw-modal-body {
+      padding: 20px;
+      background: #fff;
+
+      /* margin exposes part of the modal background */
+      margin: 40px;
+    }
+  }
+
+  .jw-modal-background {
+    /* modal background fixed across whole screen */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    /* semi-transparent black  */
+    background-color: #000;
+    opacity: 0.75;
+
+    /* z-index must be below .jw-modal and above everything else  */
+    z-index: 900;
+  }
+}
+
+body.jw-modal-open {
+  /* body overflow is hidden to hide main scrollbar when modal window is open */
+  overflow: hidden;
+}

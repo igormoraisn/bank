@@ -1,0 +1,60 @@
+<!--Main Navigation-->
+<header>
+
+    <!-- Sidebar -->
+    <div class="sidebar-fixed position-fixed">
+
+        <a class="logo-wrapper waves-effect">
+            <img src="../../../../assets/img/capgemini-logo.jpg" class="img-fluid" alt="">
+        </a>
+
+        <div class="list-group list-group-flush">
+
+            <a routerLink="home/dashboard" routerLinkActive="active" class="list-group-item list-group-item-action waves-effect">
+                <mdb-icon fas icon="home" class="mr-3"></mdb-icon>Início
+            </a>
+            <a routerLink="balance/getBalance" routerLinkActive="active" class="list-group-item list-group-item-action waves-effect">
+              <mdb-icon fas icon="search" class="mr-3"></mdb-icon>Verificar Saldo</a>
+            <a routerLink="deposit/makeDeposit" routerLinkActive="active" class="list-group-item list-group-item-action waves-effect">
+              <mdb-icon fas icon="plus" class="mr-3"></mdb-icon>Realizar Deposito</a>
+            <a routerLink="withdraw/doWithdraw" routerLinkActive="active" class="list-group-item list-group-item-action waves-effect">
+                <mdb-icon fas icon="minus" class="mr-3"></mdb-icon>Realizar Saque</a>
+            <a routerLink="nonExistingPath" routerLinkActive="active" class="list-group-item list-group-item-action waves-effect"></a>
+        </div>
+    </div>
+    <!-- Sidebar -->
+
+    <!--Navbar-->
+    <mdb-navbar [containerInside]="false" SideClass="navbar navbar-expand-lg navbar-light white">
+
+        <!-- Navbar brand -->
+        <logo class="ml-3">
+            <a class="navbar-brand" href="">
+              <!-- <img src="../../../../assets/img/claro-small.jpeg" class="img-fluid" alt=""> -->
+                <strong class="blue-text">Capgemini Bank</strong>
+            </a>
+        </logo>
+
+        <!-- Collapsible content -->
+        <links>
+            <!-- Search form -->
+            <ul class="navbar-nav nav-flex-icons">
+                <li class="nav-item">
+                    <a href="https://www.facebook.com/Capgemini" class="nav-link" target="_blank" mdbWavesEffect>
+                        <mdb-icon fab icon="facebook-f"></mdb-icon>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://twitter.com/capgemini" class="nav-link" target="_blank" mdbWavesEffect>
+                        <mdb-icon fab icon="twitter"></mdb-icon>
+                    </a>
+                </li>
+            </ul>
+        </links>
+        <!-- Collapsible content -->
+
+    </mdb-navbar>
+    <!--/.Navbar-->
+
+</header>
+<!--Main Navigation-->

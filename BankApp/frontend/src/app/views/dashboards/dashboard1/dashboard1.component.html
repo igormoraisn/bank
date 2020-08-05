@@ -1,0 +1,24 @@
+<!-- Heading -->
+<div class="card mb-4 wow fadeIn">
+
+  <!--Card content-->
+  <div class="card-body d-sm-flex justify-content-between">
+    <ngb-carousel *ngIf="images">
+      <ng-template ngbSlide>
+        <img [src]="images[0]" alt="Random first slide" class="mh-100" style="width: 100%; height: 70vh">
+        <div class="carousel-caption">
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <img [src]="images[1]" alt="Random second slide" class="mh-100" style="width: 100%; height: 70vh">
+        <div class="carousel-caption">
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <img [src]="images[2]" alt="Random third slide" class="mh-100" style="width: 100%; height: 70vh">
+        <div class="carousel-caption">
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+</div>
